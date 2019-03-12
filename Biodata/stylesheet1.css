@@ -1,0 +1,35 @@
+html {
+    background-image: url("mountain.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kiri {
+
+        background-color: aqua;
+        font-family: "beauty_mountains_personal_use-webfont";
+        float: left;
+        color:black;
+        font-size: 30px;
+        height: 100%;
+        left: 0;
+        width: 50%;
+        text-align: center;
+        position: relative;
+}
+.kanan {
+
+    background-color: bisque;
+    opacity: 0.85;
+    font-family: "beauty_mountains_personal_use-webfont";
+    float: left;
+    color:black;
+    font-size: 30px;
+    height: 100%;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
