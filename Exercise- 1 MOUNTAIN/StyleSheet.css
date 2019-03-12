@@ -1,0 +1,338 @@
+html {
+    background-image: url("mountain1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    font-family: "beauty_mountains_personal_use-webfont";
+    color:black;
+    font-size: 30px;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.text span.headCaption {
+    background-color:black;
+    color: whitesmoke;
+    opacity: 0.65;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 65px;
+    letter-spacing: 20px;
+}
+.text span.bodyCaption {
+    background-color:black;
+    top: 50%;
+    color:whitesmoke;
+    opacity: 0.65;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+@font-face {
+    font-family: 'beauty_mountains_personal_use-webfont';
+    font-weight: normal;
+    font-style: normal;
+    src: url('font/beauty_mountains_personal_use-webfont.eot');
+    src: url('font/beauty_mountains_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/beauty_mountains_personal_use-webfont.woff2') format('woff2'),
+         url('font/beauty_mountains_personal_use-webfont.woff') format('woff'),
+         url('font/beauty_mountains_personal_use-webfont.ttf') format('truetype'),
+         url('font/beauty_mountains_personal_use-webfont.svg#beauty_mountains_personal_use-webfont') format('svg');
+}
+@font-face {
+    font-family: 'variane_scriptregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('font/variane_script-webfont.eot');
+    src: url('font/variane_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/variane_script-webfont.woff2') format('woff2'),
+         url('font/variane_script-webfont.woff') format('woff'),
+         url('font/variane_script-webfont.ttf') format('truetype'),
+         url('font/variane_script-webfont.svg#variane_scriptregular') format('svg');
+    
+}
+.option {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 30px;
+    left: 0;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.option button.button1 {
+    background-color:rgb(8, 202, 1);
+    top: 50%;
+    width: 200px;
+    color:whitesmoke;
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 20px;
+    letter-spacing: 0px;
+
+}
+.option button.button2 {
+    background-color:rgb(200, 214, 1);
+    top: 50%;
+    width: 200px;
+    color:whitesmoke;
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 20px;
+    letter-spacing: 0px;
+
+}
+.option button.button3 {
+    background-color:rgb(163, 0, 0);
+    top: 50%;
+    width: 200px;
+    color:whitesmoke;
+    padding: 7px;
+    border-radius: 25px;
+    font-size: 20px;
+    letter-spacing: 0px;
+
+}
+.beginnerHeadline {
+    background-color:green;
+    opacity: 0.65;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    top: 105%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+
+}
+.beginner {
+    font-family: "variane_scriptregular";
+    color:black;
+    font-size: 45px;
+    left: 0;
+    top: 115%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    
+}
+.beginner div.gunung1, div.gunung2, div.gunung3 {
+    background-color: grey;
+    float: left;
+    width: 30%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
+.beginner div.textPulsar {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung1 img.pulosari {
+    height: 200px;
+    width: 50%;
+
+}
+.beginner div.textAndong {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung2 img.andong {
+    height: 200px;
+    width: 50%;
+
+}
+.beginner div.textPapandayan {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung3 img.papandayan {
+    height: 200px;
+    width: 50%;
+
+}
+.beginner div.blank {
+    background-color: transparent;
+    float: left;
+    width: 5%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
+.intermediateHeadline {
+    background-color: yellow;
+    opacity: 0.65;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 30px;
+    left: 0;
+    top: 205%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+
+}
+.intermediate {
+    font-family: "variane_scriptregular";
+    color:black;
+    font-size: 45px;
+    left: 0;
+    top: 215%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    
+}
+.intermediate div.gunung4, div.gunung5, div.gunung6 {
+    background-color: grey;
+    float: left;
+    width: 30%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
+.intermediate div.textMerbabu {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung4 img.merbabu {
+    height: 100px;
+    width: 50%;
+
+}
+.intermediate div.textLawu {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung5 img.lawu {
+    height: 200px;
+    width: 50%;
+
+}
+.intermediate div.textSlamet {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung6 img.slamet {
+    height: 200px;
+    width: 50%;
+
+}
+.intermediate div.blank {
+    background-color: transparent;
+    float: left;
+    width: 5%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
+.advancedHeadline {
+    background-color: red;
+    opacity: 0.65;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    top: 305%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+
+}
+.advanced {
+    font-family: "variane_scriptregular";
+    color:black;
+    font-size: 45px;
+    left: 0;
+    top: 315%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    
+}
+.advanced div.gunung7, div.gunung8, div.gunung9 {
+    background-color: grey;
+    float: left;
+    width: 30%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
+.advanced div.textRinjani {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung7 img.rinjani {
+    height: 100px;
+    width: 50%;
+
+}
+.advanced div.textYamin {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung8 img.yamin {
+    height: 200px;
+    width: 50%;
+
+}
+.advanced div.textCPyramid {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+.gunung9 img.cpyramid {
+    height: 200px;
+    width: 50%;
+
+}
+.advanced div.blank {
+    background-color: transparent;
+    float: left;
+    width: 5%;
+    padding: 0px;
+    border-radius: 45px;
+    border-color: aqua;
+    border-block-end-color: aliceblue;
+    height: 500px;
+}
